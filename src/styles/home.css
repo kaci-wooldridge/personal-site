@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;400;500;600&display=swap');
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-welcome{
+    margin: 0px 0 0px 0;
+
+    font-family: 'Pacifico';
+    font-size: 100px;
+}
+
+.im-kc{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.home-content{
+    margin: 0px 80px 0px 80px;
+
+
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 30px;
+
+    text-align: center;
+}

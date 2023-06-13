@@ -1,3 +1,8 @@
+.app {
+  text-align: center;
+  height: 100vh
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +12,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body { height: 100% }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  min-height: calc(100vh - 20px);
+}
+
+.new-line {
+  white-space: pre-line;
 }

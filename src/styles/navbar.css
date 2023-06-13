@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+
+.navbar{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/009/496/975/original/rainbow-gradient-background-abstract-blur-texture-free-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.304);
+
+    font-family: 'Poppins' ;
+    font-weight: 400;
+}
+
+.nav-site-name{
+    font-weight: 600;
+}
