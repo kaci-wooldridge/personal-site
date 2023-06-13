@@ -14,6 +14,9 @@ import {
 import {
   faHouse
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub, faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,8 +39,14 @@ export default function NavBar() {
           <Nav className="me-auto" navbar>
 
             <NavItem className="nav-item">
-              <NavLink href="/page1/">
-                Page 1
+              <NavLink href="https://github.com/kaci-wooldridge">
+              <FontAwesomeIcon icon={faGithub} style={{color: "#874efe",}} />
+              </NavLink>
+            </NavItem>
+
+            <NavItem className="nav-item">
+              <NavLink href="https://www.linkedin.com/in/kaci-wooldridge">
+              <FontAwesomeIcon icon={faLinkedin} style={{color: "#874efe",}} />
               </NavLink>
             </NavItem>
 
